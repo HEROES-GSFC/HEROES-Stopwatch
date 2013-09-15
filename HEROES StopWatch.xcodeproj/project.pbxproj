@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862203A817D84D160086A03F /* stopWatchWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 862203A617D84D160086A03F /* stopWatchWindowController.m */; };
+		862203A917D84D160086A03F /* stopWatchWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862203A717D84D160086A03F /* stopWatchWindowController.xib */; };
 		86C5EDAC17D5818F00F24F45 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C5EDAB17D5818F00F24F45 /* Cocoa.framework */; };
 		86C5EDB617D5819000F24F45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86C5EDB417D5819000F24F45 /* InfoPlist.strings */; };
 		86C5EDB817D5819000F24F45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5EDB717D5819000F24F45 /* main.m */; };
@@ -17,6 +19,10 @@
 		86C5EDCB17D5819000F24F45 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C5EDAB17D5818F00F24F45 /* Cocoa.framework */; };
 		86C5EDD317D5819000F24F45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86C5EDD117D5819000F24F45 /* InfoPlist.strings */; };
 		86C5EDD617D5819000F24F45 /* HEROES_StopWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5EDD517D5819000F24F45 /* HEROES_StopWatchTests.m */; };
+		86C5EDE117D581BB00F24F45 /* timerAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5EDE017D581BB00F24F45 /* timerAppController.m */; };
+		86C5EDE417D5919300F24F45 /* timerTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5EDE317D5919300F24F45 /* timerTimer.m */; };
+		86F78C6317E579CC00CDDB01 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 86F78C6217E579CC00CDDB01 /* icon.iconset */; };
+		86F78C6517E579DE00CDDB01 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 86F78C6417E579DE00CDDB01 /* icon.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		862203A517D84D160086A03F /* stopWatchWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stopWatchWindowController.h; sourceTree = "<group>"; };
+		862203A617D84D160086A03F /* stopWatchWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stopWatchWindowController.m; sourceTree = "<group>"; };
+		862203A717D84D160086A03F /* stopWatchWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = stopWatchWindowController.xib; sourceTree = "<group>"; };
 		86C5EDA817D5818F00F24F45 /* HEROES StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HEROES StopWatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C5EDAB17D5818F00F24F45 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		86C5EDAE17D5818F00F24F45 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -49,6 +58,12 @@
 		86C5EDD217D5819000F24F45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86C5EDD417D5819000F24F45 /* HEROES_StopWatchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HEROES_StopWatchTests.h; sourceTree = "<group>"; };
 		86C5EDD517D5819000F24F45 /* HEROES_StopWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HEROES_StopWatchTests.m; sourceTree = "<group>"; };
+		86C5EDDF17D581BB00F24F45 /* timerAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timerAppController.h; sourceTree = "<group>"; };
+		86C5EDE017D581BB00F24F45 /* timerAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timerAppController.m; sourceTree = "<group>"; };
+		86C5EDE217D5919300F24F45 /* timerTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timerTimer.h; sourceTree = "<group>"; };
+		86C5EDE317D5919300F24F45 /* timerTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timerTimer.m; sourceTree = "<group>"; };
+		86F78C6217E579CC00CDDB01 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
+		86F78C6417E579DE00CDDB01 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +90,7 @@
 		86C5ED9F17D5818F00F24F45 = {
 			isa = PBXGroup;
 			children = (
+				86F78C6417E579DE00CDDB01 /* icon.iconset */,
 				86C5EDB117D5818F00F24F45 /* HEROES StopWatch */,
 				86C5EDCE17D5819000F24F45 /* HEROES StopWatchTests */,
 				86C5EDAA17D5818F00F24F45 /* Frameworks */,
@@ -117,6 +133,13 @@
 				86C5EDBD17D5819000F24F45 /* timerAppDelegate.h */,
 				86C5EDBE17D5819000F24F45 /* timerAppDelegate.m */,
 				86C5EDC017D5819000F24F45 /* MainMenu.xib */,
+				86C5EDDF17D581BB00F24F45 /* timerAppController.h */,
+				86C5EDE017D581BB00F24F45 /* timerAppController.m */,
+				862203A517D84D160086A03F /* stopWatchWindowController.h */,
+				862203A617D84D160086A03F /* stopWatchWindowController.m */,
+				862203A717D84D160086A03F /* stopWatchWindowController.xib */,
+				86C5EDE217D5919300F24F45 /* timerTimer.h */,
+				86C5EDE317D5919300F24F45 /* timerTimer.m */,
 				86C5EDB217D5819000F24F45 /* Supporting Files */,
 			);
 			path = "HEROES StopWatch";
@@ -125,6 +148,7 @@
 		86C5EDB217D5819000F24F45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86F78C6217E579CC00CDDB01 /* icon.iconset */,
 				86C5EDB317D5819000F24F45 /* HEROES StopWatch-Info.plist */,
 				86C5EDB417D5819000F24F45 /* InfoPlist.strings */,
 				86C5EDB717D5819000F24F45 /* main.m */,
@@ -228,6 +252,9 @@
 				86C5EDB617D5819000F24F45 /* InfoPlist.strings in Resources */,
 				86C5EDBC17D5819000F24F45 /* Credits.rtf in Resources */,
 				86C5EDC217D5819000F24F45 /* MainMenu.xib in Resources */,
+				862203A917D84D160086A03F /* stopWatchWindowController.xib in Resources */,
+				86F78C6317E579CC00CDDB01 /* icon.iconset in Resources */,
+				86F78C6517E579DE00CDDB01 /* icon.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +291,9 @@
 			files = (
 				86C5EDB817D5819000F24F45 /* main.m in Sources */,
 				86C5EDBF17D5819000F24F45 /* timerAppDelegate.m in Sources */,
+				86C5EDE117D581BB00F24F45 /* timerAppController.m in Sources */,
+				86C5EDE417D5919300F24F45 /* timerTimer.m in Sources */,
+				862203A817D84D160086A03F /* stopWatchWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +483,7 @@
 				86C5EDDB17D5819000F24F45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C5EDDC17D5819000F24F45 /* Build configuration list for PBXNativeTarget "HEROES StopWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +492,7 @@
 				86C5EDDE17D5819000F24F45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
